@@ -63,8 +63,8 @@ This project implements a complete machine learning pipeline for text classifica
 
 ```bash
 # Clone repository
-git clone https://github.com/yourusername/spoilershield.git
-cd spoilershield
+git clone https://github.com/scottdstearns/SpoilerShield.git
+cd SpoilerShield
 
 # Create virtual environment
 python -m venv venv
