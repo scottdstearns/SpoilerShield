@@ -4,6 +4,8 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![ML Pipeline](https://img.shields.io/badge/ML-Pipeline-green.svg)]()
 
+👉 Download large model files from the project [Releases](https://github.com/scottdstearns/SpoilerShield/releases).
+
 A production-ready text classification system applied to movie review spoiler detection, demonstrating advanced ML engineering practices including genetic algorithm hyperparameter optimization, transformer integration, and comprehensive model evaluation.
 
 ## 🎯 Project Overview
@@ -89,7 +91,7 @@ python 02_model_training.py  # Creates roberta-base_model/ (500MB)
 ```
 
 #### Option 2: Download Pre-trained Models (GitHub Releases)
-Download the pre-trained artifacts from the repository's Releases page. Place them under `outputs/`:
+Download the pre-trained artifacts from the project [Releases](https://github.com/scottdstearns/SpoilerShield/releases) page (v1.0.0). Place them under `outputs/`:
 
 - `outputs/processed_data.pt` (1.2GB) — Preprocessed dataset for transformer inference
 - `outputs/roberta-base_model/model.safetensors` (476MB) — Fine-tuned RoBERTa model
