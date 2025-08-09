@@ -1,0 +1,72 @@
+{
+  "dataset_details": {
+    "total_reviews": 79999,
+    "total_movies": 1572,
+    "class_distribution": {
+      "false": 58961,
+      "true": 21038
+    },
+    "class_percentages": {
+      "false": 73.70217127714096,
+      "true": 26.297828722859034
+    },
+    "imbalance_ratio": 2.8025953037360964,
+    "text_length_stats": {
+      "mean": 1457.390792384905,
+      "median": 1052.0,
+      "min": 18,
+      "max": 14963,
+      "std": 1123.3541379318892
+    }
+  },
+  "eda_results": {
+    "text_statistics": {
+      "total_documents": 79999,
+      "avg_length": 296.0323629045363,
+      "min_length": "2",
+      "max_length": "2961",
+      "vocabulary_size": 298527
+    },
+    "class_analysis": {
+      "class_counts": {
+        "false": 58961,
+        "true": 21038
+      },
+      "class_percentages": {
+        "false": 0.7370217127714096,
+        "true": 0.26297828722859035
+      },
+      "imbalance_ratio": 2.8025953037360964
+    },
+    "word_frequency": {
+      "I": 307337,
+      "movie": 192398,
+      "film": 144492,
+      "The": 141164,
+      "n't": 125083,
+      "one": 82000,
+      "like": 71070,
+      "It": 64102,
+      "good": 55842,
+      "story": 50114,
+      "would": 47361,
+      "really": 45952,
+      "time": 44502,
+      "see": 44423,
+      "This": 42595,
+      "great": 41670,
+      "much": 37857,
+      "even": 35720,
+      "well": 34427,
+      "could": 33386
+    },
+    "document_lengths": {
+      "mean": 296.0323629045363,
+      "median": 216.0,
+      "min": "2",
+      "max": "2961",
+      "std": 223.51533661916088
+    }
+  },
+  "processing_timestamp": "2025-07-06T21:25:18.807962"
+}

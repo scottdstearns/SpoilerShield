@@ -1,0 +1,28 @@
+{
+  "data_shape": {
+    "input_ids": [
+      79999,
+      1024
+    ],
+    "attention_mask": [
+      79999,
+      1024
+    ],
+    "labels": [
+      79999
+    ]
+  },
+  "model_info": {
+    "model_name": "allenai/longformer-base-4096",
+    "max_length": 1024,
+    "num_samples": 79999
+  },
+  "class_distribution": {
+    "false": 58961,
+    "true": 21038
+  },
+  "files_created": [
+    "/content/drive/MyDrive/IK Course Materials/SpoilerShield/outputs/processed_data.pt",
+    "/content/drive/MyDrive/IK Course Materials/SpoilerShield/outputs/data_metadata.json"
+  ]
+}

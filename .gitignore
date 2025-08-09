@@ -1,0 +1,27 @@
+### General
+__pycache__/
+*.pyc
+*.pyo
+.DS_Store
+*.log
+*.tmp
+*.temp
+.ipynb_checkpoints/
+venv/
+.venv/
+
+### Outputs (keep small inference artifacts only)
+# Keep: outputs/baseline_model.pkl
+outputs/processed_data.pt
+outputs/roberta-base_model/
+outputs/transformer_roberta-base/
+outputs/archive/
+
+### Datasets (obtain separately per README)
+implementation/src/data/*.json
+implementation/src/data/*.zip
+
+### Experimental/comparison models (not core to final app)
+outputs/random_forest_model.pkl
+outputs/svm_model.pkl
+outputs/naive_bayes_model.pkl

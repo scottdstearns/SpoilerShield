@@ -1,0 +1,49 @@
+{
+  "models_evaluated": [
+    "Baseline_TF-IDF_LogReg",
+    "Random Forest",
+    "SVM",
+    "Naive Bayes"
+  ],
+  "best_model": "Random Forest",
+  "best_f1_score": 0.48075313807531384,
+  "model_rankings": [
+    {
+      "model": "Random Forest",
+      "f1_score": 0.48075313807531384,
+      "accuracy": 0.68975,
+      "precision": 0.42937219730941706,
+      "recall": 0.5461026615969582,
+      "specificity": 0.7410108548168249,
+      "roc_auc": 0.7123596876918553
+    },
+    {
+      "model": "SVM",
+      "f1_score": 0.4164687252573238,
+      "accuracy": 0.263,
+      "precision": 0.263,
+      "recall": 1.0,
+      "specificity": 0.0,
+      "roc_auc": 0.5739029142977645
+    },
+    {
+      "model": "Baseline_TF-IDF_LogReg",
+      "f1_score": 0.4101078384033478,
+      "accuracy": 0.7709375,
+      "precision": 0.6354114713216957,
+      "recall": 0.30275665399239543,
+      "specificity": 0.9380088195386703,
+      "roc_auc": 0.7451528328801895
+    },
+    {
+      "model": "Naive Bayes",
+      "f1_score": 0.18908941755537326,
+      "accuracy": 0.752875,
+      "precision": 0.6901197604790419,
+      "recall": 0.1095532319391635,
+      "specificity": 0.9824457259158752,
+      "roc_auc": 0.7172640687957551
+    }
+  ],
+  "evaluation_timestamp": "2025-08-06T07:59:52.450864"
+}

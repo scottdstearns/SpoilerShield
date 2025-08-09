@@ -1,0 +1,143 @@
+MODEL EVALUATION REPORT
+==================================================
+
+MODEL: Baseline_TF-IDF_LogReg
+------------------------------
+Metrics:
+  Accuracy: 0.7709
+  Precision: 0.6354
+  Recall (Sensitivity): 0.3028
+  Specificity: 0.9380
+  F1 Score: 0.4101
+  ROC-AUC: 0.7452
+  Average Precision: 0.5369
+
+Classification Report:
+  False:
+    precision: 0.7904
+    recall: 0.9380
+    f1-score: 0.8579
+    support: 11792.0000
+  True:
+    precision: 0.6354
+    recall: 0.3028
+    f1-score: 0.4101
+    support: 4208.0000
+  macro avg:
+    precision: 0.7129
+    recall: 0.6204
+    f1-score: 0.6340
+    support: 16000.0000
+  weighted avg:
+    precision: 0.7496
+    recall: 0.7709
+    f1-score: 0.7401
+    support: 16000.0000
+
+==================================================
+
+MODEL: Random Forest
+------------------------------
+Metrics:
+  Accuracy: 0.6897
+  Precision: 0.4294
+  Recall (Sensitivity): 0.5461
+  Specificity: 0.7410
+  F1 Score: 0.4808
+  ROC-AUC: 0.7124
+  Average Precision: 0.4681
+
+Classification Report:
+  False:
+    precision: 0.8206
+    recall: 0.7410
+    f1-score: 0.7788
+    support: 11792.0000
+  True:
+    precision: 0.4294
+    recall: 0.5461
+    f1-score: 0.4808
+    support: 4208.0000
+  macro avg:
+    precision: 0.6250
+    recall: 0.6436
+    f1-score: 0.6298
+    support: 16000.0000
+  weighted avg:
+    precision: 0.7177
+    recall: 0.6897
+    f1-score: 0.7004
+    support: 16000.0000
+
+==================================================
+
+MODEL: SVM
+------------------------------
+Metrics:
+  Accuracy: 0.2630
+  Precision: 0.2630
+  Recall (Sensitivity): 1.0000
+  Specificity: 0.0000
+  F1 Score: 0.4165
+  ROC-AUC: 0.5739
+  Average Precision: 0.3241
+
+Classification Report:
+  False:
+    precision: 0.0000
+    recall: 0.0000
+    f1-score: 0.0000
+    support: 11792.0000
+  True:
+    precision: 0.2630
+    recall: 1.0000
+    f1-score: 0.4165
+    support: 4208.0000
+  macro avg:
+    precision: 0.1315
+    recall: 0.5000
+    f1-score: 0.2082
+    support: 16000.0000
+  weighted avg:
+    precision: 0.0692
+    recall: 0.2630
+    f1-score: 0.1095
+    support: 16000.0000
+
+==================================================
+
+MODEL: Naive Bayes
+------------------------------
+Metrics:
+  Accuracy: 0.7529
+  Precision: 0.6901
+  Recall (Sensitivity): 0.1096
+  Specificity: 0.9824
+  F1 Score: 0.1891
+  ROC-AUC: 0.7173
+  Average Precision: 0.4894
+
+Classification Report:
+  False:
+    precision: 0.7556
+    recall: 0.9824
+    f1-score: 0.8542
+    support: 11792.0000
+  True:
+    precision: 0.6901
+    recall: 0.1096
+    f1-score: 0.1891
+    support: 4208.0000
+  macro avg:
+    precision: 0.7229
+    recall: 0.5460
+    f1-score: 0.5217
+    support: 16000.0000
+  weighted avg:
+    precision: 0.7384
+    recall: 0.7529
+    f1-score: 0.6793
+    support: 16000.0000
+
+==================================================
+

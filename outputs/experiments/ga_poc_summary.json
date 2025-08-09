@@ -1,0 +1,11 @@
+{
+  "best_params": {
+    "tfidf__max_features": 40000,
+    "classifier__C": 1,
+    "classifier__penalty": "l2"
+  },
+  "best_cv_score": 0.5271800060524338,
+  "test_f1": 0.5277721672389416,
+  "optimization_time": 270.03354716300964,
+  "total_evals": 45
+}

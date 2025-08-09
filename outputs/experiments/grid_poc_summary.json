@@ -1,0 +1,20 @@
+{
+  "best_params": {
+    "classifier__C": 0.5,
+    "classifier__penalty": "l2",
+    "tfidf__max_features": 10000
+  },
+  "best_cv_score": 0.5304999944806639,
+  "test_metrics": {
+    "accuracy": 0.7039375,
+    "precision": 0.4548865768377964,
+    "recall": 0.6337927756653993,
+    "f1": 0.5296395591301758,
+    "roc_auc": 0.7488227502308713,
+    "specificity": 0.7289687924016283
+  },
+  "optimization_time": 32.194058895111084,
+  "param_combos": 15,
+  "n_splits": 3,
+  "total_evals": 45
+}
