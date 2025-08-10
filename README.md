@@ -95,7 +95,13 @@ Download the pre-trained artifacts from the project [Releases](https://github.co
 
 - `outputs/processed_data.pt` (1.2GB) — Preprocessed dataset for transformer inference
 - `outputs/roberta-base_model/model.safetensors` (476MB) — Fine-tuned RoBERTa model
-- `outputs/roberta-base_model/tokenizer.json` (3.4MB) — Model tokenizer
+- EITHER `outputs/roberta-base_model/tokenizer.json` (3.4MB)
+  OR the zipped small-files bundle: `outputs/roberta-base_model/roberta-base_model_small_files.zip` (contains `config.json`, `tokenizer_config.json`, `special_tokens_map.json`, `vocab.json`, `merges.txt`)
+
+If you downloaded the zip bundle, unzip it into `outputs/roberta-base_model/`:
+```bash
+unzip outputs/roberta-base_model/roberta-base_model_small_files.zip -d outputs/roberta-base_model/
+```
 
 #### Verification
 ```bash
@@ -140,6 +146,13 @@ transformer = AutoModelForSequenceClassification.from_pretrained('outputs/robert
 text = "The movie was great, but I won't spoil the ending for you!"
 prediction = baseline_model.predict([text])[0]
 print(f"Spoiler detected: {prediction}")
+```
+
+### CLI: Quick inference
+After downloading or generating the artifacts, you can run a quick inference:
+
+```bash
+python scripts/quick_infer.py --model both --text "No spoilers here" "This reveals the ending"
 ```
 
 ## 🏗️ Repository Architecture
@@ -263,7 +276,7 @@ The system automatically detects and adapts to different compute environments:
 - **Optimization**: joblib, scipy, imbalanced-learn
 - **Visualization**: matplotlib, seaborn
 
-## 🎯 Interview Preparation
+## 🎯 FAQ
 
 ### Expected Questions & Answers
 
