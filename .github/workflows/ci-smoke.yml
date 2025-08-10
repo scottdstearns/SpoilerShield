@@ -26,11 +26,7 @@ jobs:
       - name: Baseline smoke load
         run: |
           . venv/bin/activate
-          python - <<'PY'
-import joblib
-obj = joblib.load('outputs/baseline_model.pkl')
-print('Baseline artifact type:', type(obj).__name__)
-PY
+          python -c "import joblib; obj=joblib.load('outputs/baseline_model.pkl'); print('Baseline artifact type:', type(obj).__name__)"
 
       - name: Lint quick_infer.py import
         run: |
