@@ -3,6 +3,7 @@
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![ML Pipeline](https://img.shields.io/badge/ML-Pipeline-green.svg)]()
+[![CI Smoke Test](https://github.com/scottdstearns/SpoilerShield/actions/workflows/ci-smoke.yml/badge.svg)](https://github.com/scottdstearns/SpoilerShield/actions/workflows/ci-smoke.yml)
 
 👉 Download large model files from the project [Releases](https://github.com/scottdstearns/SpoilerShield/releases).
 
